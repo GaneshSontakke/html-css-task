@@ -1,0 +1,22 @@
+* {
+    border: 0px;
+}
+
+body {
+    background-color: aquamarine;
+    border: 3px solid purple;
+    margin: 0;
+    padding: 2px;
+    outline: 2px salmon;
+}
+
+p {
+    color: orangered;
+}
+
+input {
+    padding: 2px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: whitesmoke;
+}

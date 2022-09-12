@@ -1,0 +1,128 @@
+.boxContainer {
+    background-color: aquamarine;
+    padding: 1rem;
+    display: flex;
+}
+
+.box {
+    background-color: rgb(192, 199, 51);
+    margin: 1rem;
+    padding: 1rem;
+    color: rgb(31, 17, 17);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+
+/* flex direction */
+
+#boxes1 {
+    flex-direction: row;
+}
+
+#boxes2 {
+    flex-direction: column;
+}
+
+#boxes3 {
+    flex-direction: row-reverse
+}
+
+#boxes4 {
+    flex-direction: column-reverse;
+}
+
+
+/* spacing */
+
+#boxes5 {
+    justify-content: space-around;
+}
+
+#boxes6 {
+    justify-content: space-evenly;
+}
+
+#boxes7 {
+    justify-content: space-between;
+}
+
+
+/* justifu column */
+
+#boxes8 {
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#boxes9 {
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#boxes10 {
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Row Align item */
+
+#boxes11 {
+    height: 90vh;
+    align-items: flex-start;
+}
+
+#boxes12 {
+    height: 90vh;
+    align-items: center;
+}
+
+#boxes13 {
+    height: 90vh;
+    align-items: flex-end;
+}
+
+
+/* column Align items */
+
+#boxes14 {
+    height: 90vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#boxes15 {
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boxes16 {
+    height: 90vh;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/* order any number */
+
+#box1 {
+    order: 0;
+}
+
+#box2 {
+    order: 1;
+}
+
+#box3 {
+    order: 4;
+}
+
+#box4 {
+    order: 2;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+
+table {
+    border: 1px solid rgb(220, 10, 10);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 2rem;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+hr table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid green;
+    padding: 15px;
+}

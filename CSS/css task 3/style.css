@@ -1,0 +1,49 @@
+  .box {
+      background-color: #00ff40;
+      border: 2px solid rgb(232, 16, 157);
+  }
+  
+  #box1 {
+      width: 500px;
+      height: 100px;
+      color: aqua;
+  }
+  
+  #box2 {
+      width: 50%;
+      height: 00;
+      background-color: rgb(255, 98, 0);
+  }
+  
+  #box3 {
+      width: 20em;
+      height: 20em;
+      background-color: #aaff00;
+  }
+  
+  #box4 {
+      width: 20rem;
+      height: 15rem;
+      background-color: #ff00c3;
+  }
+  
+  #box5 {
+      width: 30vw;
+      height: 15vw;
+      background-color: rgb(153, 0, 255);
+  }
+  
+  #box6 {
+      width: 25vh;
+      height: 20vh;
+      background-color: orchid;
+  }
+  
+  body {
+      background-color: antiquewhite;
+      border: 3px solid black;
+  }
+  
+  hr {
+      border: 5px solid pink;
+  }

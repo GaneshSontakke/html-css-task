@@ -1,0 +1,98 @@
+#float {
+    background-color: rgb(226, 91, 24);
+    float: right;
+    padding: 3rem;
+    margin: 3rem 0rem;
+}
+
+h4 {
+    border: 5px solid green;
+    background-color: pink;
+}
+
+
+/*------position -------*/
+
+body {
+    background-color: palegreen;
+    border: 3px solid rgb(205, 50, 50);
+    padding: 0;
+}
+
+#relative {
+    background-color: brown;
+    border: 3rem;
+    margin: 2rem;
+    height: 8rem;
+}
+
+div.relative p {
+    position: relative;
+    left: 40px;
+    border: 3px solid #73AD21;
+    background-color: aqua;
+    width: 50%;
+}
+
+#relative {
+    background-color: rgb(42, 165, 79);
+    border: rem solid wheat;
+    margin: 2rem;
+    height: 8rem;
+}
+
+#h4Absolute {
+    background-color: aquamarine;
+    border: 1px solid rgb(239, 232, 232);
+    position: absolute;
+    width: 70%;
+}
+
+.k1 {
+    position: fixed;
+    bottom: 0;
+}
+
+#sticky {
+    position: sticky;
+    top: 5rem;
+}
+
+
+/* the web page Responsibal */
+
+
+/* The laptop and destop */
+
+@media only screen and (max-width:800px) {
+    body {
+        background-color: palegreen;
+    }
+    #type::after {
+        content: "laptop/destop";
+    }
+}
+
+
+/* The tablet */
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: palegreen;
+    }
+    #type::after {
+        content: "tablet";
+    }
+}
+
+
+/* for small  */
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: palegreen;
+    }
+    #type::after {
+        content: "mobile";
+    }
+}
